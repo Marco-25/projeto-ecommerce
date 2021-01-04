@@ -1,0 +1,134 @@
+.footer-final {
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+.footer-final__container-stamps {
+    width: 62%;
+    height: 4rem;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+}
+
+.footer-final__container {
+    display: flex;
+    padding: 1rem;
+}
+
+.footer-final__container-purchase {
+    margin-left: 10px;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 14rem;
+    border: 0;
+    color: white;
+    text-wrap: none;
+}
+
+.footer-final__container-site {
+    margin-left: 10px;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 14rem;
+    border: 0;
+    color: white;
+    text-wrap: none;
+}
+
+.footer-final__container-site-1 {
+    margin-left: 10px;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 7rem;
+    border: 0;
+    color: white;
+    text-wrap: none;
+}
+
+#btn-site-footer {width: 7rem;}
+
+#btn-site-footer-1 {
+    margin-top: 1.49rem;
+    margin-left: 10px;
+    height: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 6rem;
+    border: 0;
+    color: white;
+    text-wrap: none;
+}
+
+.selos-site-footer-1 {
+    margin-left: 10px;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    padding: .4rem;
+    border: 2px solid goldenrod;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.selos-site-footer-1 span {
+    color: goldenrod;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Tahoma sans-serif;
+}
+
+.selos-site-footer-2 {
+    margin-left: 10px;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    padding: .4rem;
+    border: 2px solid red;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+
+
+}
+.selos-site-footer-2 i { color: red;font-size: 1.4rem }
+
+.selos-site-footer-3 {
+    margin-left: 10px;
+    width: 3rem;
+    height: 3rem;
+    line-height: 1.2rem;
+    padding: .4rem;
+    border: 2px solid red;
+    text-align: center;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial sans-serif;
+}
+
+@media screen and (max-width: 868px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 868px) {
+
+}

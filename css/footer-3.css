@@ -1,0 +1,61 @@
+.footer-3 {
+
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer-3__container-copy p#copy {
+    padding-bottom: 1rem;
+    color: gray;
+    text-align: center;
+}
+
+.footer-3__container-copy h5 {
+    text-transform: uppercase;
+    font-size: .9rem;
+    letter-spacing: .2rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.footer-3__container-copy h5 >span {
+    font-family: 'Calligraffitti', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+.footer-3__container-copy #tray {
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #bfbfbf;
+    width: 25%;
+    height: 2rem;
+    line-height: 2rem;
+    margin: 1rem auto 0 auto;
+    text-transform: uppercase;
+
+}
+
+.footer-3__container-copy a {
+    text-decoration: none;
+    font-size: .79rem;
+    color: #4a4949;
+}
+
+.footer-3__container-copy a span {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 868px) {
+
+}
+
+
+
+
+
+
+
+
+

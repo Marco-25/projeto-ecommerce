@@ -1,0 +1,75 @@
+.footer-2 {
+    padding: 2rem;/*tirar depois */
+    border-bottom: 1px solid #ccc;
+}
+
+.footer-2__container-institutional { float: left; padding: 0 1rem}
+.footer-2__container-doubts {float: left; padding: 0 1rem}
+.footer-2__container-attendance { float: left; padding: 0 1rem}
+.footer-2__container-payments {float: left; padding: 0 .5rem}
+.footer-2__container-auaha {float: left}
+
+
+.footer-2 h5 {
+    text-transform: uppercase;
+    padding-bottom: 1.1rem;
+}
+
+.footer-2 h5 > a {
+    display: block;
+    font-weight: 500;
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-2 a {
+    display: block;
+    font-weight: 500;
+    color: gray;
+    text-decoration: none;
+    padding-bottom: .9rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.footer-2__container-mobile{
+    float: left;
+}
+
+
+@media screen and (max-width: 868px) {
+
+    .footer-2 {
+        display: flex;
+    }
+    .footer-2__container {
+        margin: 0 auto;
+    }
+
+    .footer-2__container-institutional {
+        float: left;
+        padding: 0 3rem;
+    }
+    .footer-2__container-doubts {
+        float: left;
+        padding: 0 2rem;
+    }
+    .footer-2__container-attendance {
+        float: left;
+        padding: 0 1rem;
+    }
+    .footer-2__container-payments {
+        display: block;
+        padding-top: 1rem;
+    }
+    .footer-2__container-auaha {
+        display: block;
+        padding-top: 1rem;
+    }
+}
+
+
+
+
+
+

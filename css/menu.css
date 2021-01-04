@@ -1,0 +1,390 @@
+.header{
+    height: auto;
+}
+
+.menu-primary ul li ul {
+    display: none;
+    z-index: 997;
+}
+
+.menu-secundary ol li ul {
+    display: none;
+    z-index: 996;
+}
+
+.menu-primary > ul,
+.menu-secundary > ol{
+    display: none;
+}
+/********************/
+/*************** break point **********/
+.brand {
+    float: left;
+    width: 10%;
+    height: 6rem;
+    line-height: 6rem;
+    font-family: 'Calligraffitti', cursive;
+}
+.brand h1  {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.brand h1 span {
+    color: gray;
+    font-size: 3rem;
+}
+
+.menu-primary {
+    float: left;
+    width: 70%;
+    height: auto;
+}
+
+.menu-secundary {
+    float: left;
+    width: 20%;
+}
+/**************************************/
+/*******menu -primary**************/
+.menu-primary > ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6rem;
+    line-height: 6rem;
+}
+
+.menu-primary > ul > li > a {
+    color: white;
+    font-size: .9rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu-primary > ul > li:hover > .sub-menu-primary {
+    display: block;
+}
+
+.sub-menu-primary {
+    position: absolute;
+    margin-right: 3rem;
+    background-color: whitesmoke;
+    width: 220px;
+    height: 180px;
+}
+
+#hotsale-cor { color: #ff253a; }
+.sub-menu-primary > li:hover {background-color: #cccccc}
+.sub-menu-primary > li {
+    line-height: 2.5rem;
+    height: 2.5rem;
+    border-bottom: 1px solid rgba(210,210,210, .6);
+}
+
+.sub-menu-primary > li > a{
+    padding-left: .5rem;
+    text-align: left;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #333;
+}
+
+/********************************************/
+/*****************menu-secundary**********/
+.menu-secundary ol {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6rem;
+    line-height: 6rem;
+}
+
+.menu-secundary > ol > li > span {
+    color: #ccc;
+    font-size: .8rem;
+    padding-left: 1rem;
+}
+.menu-secundary > ol > li > a > i {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#show {
+    font-size: 1rem;
+    padding-left: .4rem;
+}
+#li-search {
+    width: 6rem;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+#li-bag {
+    width: 3rem;
+    background-color: #ff253a;
+    position: relative;
+    border-left: 1px solid #ff253a;
+}
+#bag {font-size: 1.5rem; color: white; padding-left: .6rem }
+#counter {
+    position: absolute;
+    text-align: center;
+    top: 1.6rem;
+    right: .3rem;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+#input {display: none;padding-left: .5rem}
+/*---------------------------------------*/
+.sub-menu-secundary {
+    z-index: 995;
+    position: absolute;
+    right: 60px;
+    width: 200px;
+    height: 160px;
+    background-color: whitesmoke;
+}
+.menu-secundary > ol > li:hover > .sub-menu-secundary{
+    display: block;
+}
+.sub-menu-secundary > li {
+    text-align: left;
+    padding-left: 20px;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.sub-menu-secundary > li > a{
+    color: #837c7c;
+    text-decoration: none;
+}
+
+.sub-menu-secundary > li > a > i{
+    font-size: 1.2rem;
+}
+
+.sub-menu-secundary > li > a > b {
+    font-weight: bold;
+}
+.invisible {display: none;}
+.show {display: block}
+
+#input {
+    display: none;
+    position: absolute;
+    top: 0;
+    font-size: 1.6rem;
+    right: 11.5rem;
+    height: 6rem;
+    width: 30rem;
+}
+
+.menu-toggle {
+    display: none;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    float: right;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.menu-primary-mobile > ul,
+.menu-secundary-mobile> ol{
+    display: none;
+}
+
+@media screen and (max-width: 868px){
+    /************BREAK POINT**************/
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .header > .container {
+        width: calc(100vw - 5rem)
+    }
+    .menu-primary > ul,
+    .menu-secundary > ol{
+        z-index: 998;
+        display: none;
+    }
+
+    .menu-primary-mobile > ul {
+        background-color: black;
+        border-top: 1px solid #ccc;
+        padding:  0;
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 2rem);
+        height: 22rem;
+    }
+    #hotsale-cor-mobile {color: #ff253a; text-transform: uppercase;padding-left: 4rem;}
+    #li-hotsale-mobile:hover{
+        text-decoration: none;
+    }
+    .menu-primary-mobile > ul > li:hover > a{
+        background-color: #ccc;
+        color: black;
+        font-weight: bold;
+    }
+    .menu-primary-mobile > ul > li {
+        display: block;
+        padding-top: .2rem;
+        text-align: left;
+    }
+
+    .menu-primary-mobile > ul > li > a{
+        display: block;
+        letter-spacing: .4rem;
+        padding-left: 4rem;
+        height: 2rem;
+        line-height: 2rem;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .menu-secundary-mobile ol {
+        width: calc(100% - 2rem);
+        background-color: black;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 6rem;
+        line-height: 6rem;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #search-mobile {display: none}
+    #span-search-mobile {display: none}
+    #input-mobile {
+        display: block!important;
+        height: 2rem;
+        width: 20rem;
+        position: relative;
+        left: 0;
+        font-size: 1rem;
+    }
+
+    .menu-secundary-mobile > ol > li > a > i {
+        font-size: 1.8rem;
+        color: white;
+    }
+
+    #li-bag-mobile {
+        width: 5rem;
+        background-color: #ff253a;
+        position: relative;
+        border-left: 1px solid #ff253a;
+    }
+    #bag-mobile {font-size: 1.8rem; color: white; padding-left: 1.5rem }
+    #counter-mobile {
+        position: absolute;
+        text-align: center;
+        top: 1.6rem;
+        right: 1rem;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        background-color: black;
+        font-size: 1.2rem;
+        box-sizing: border-box;
+    }
+    /***********SUB-MENU-PRIMARY-MOBILE*****/
+    .sub-menu-primary-mobile {
+        display: none;
+        padding: 1rem 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0 auto;
+        background-color: gray;
+        width: 350px;
+        height: 100%;
+    }
+
+    .sub-menu-primary-mobile > li:hover{
+        background-color: #333333;
+    }
+
+    .sub-menu-primary-mobile > li{
+        padding: .2rem 0;
+    }
+
+    .sub-menu-primary-mobile > li > a {
+        color: whitesmoke;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-left: 2rem;
+    }
+
+
+    /***********SUB-MENU-SECUNDARY-MOBILE*****/
+    .sub-menu-secundary-mobile{
+        display: none;
+        z-index: 994;
+    }
+    .sub-menu-secundary-mobile {
+        position: absolute;
+        left: 50%;
+        width: 300px;
+        height: 160px;
+        background-color: whitesmoke;
+    }
+    .menu-secundary-mobile > ol > li:hover > .sub-menu-secundary-mobile{
+        display: block;
+    }
+    .sub-menu-secundary-mobile > li {
+        text-align: left;
+        padding-left: 20px;
+        height: 2rem;
+        line-height: 2rem;
+    }
+
+    .sub-menu-secundary-mobile > li > a{
+        color: #837c7c;
+        text-decoration: none;
+    }
+
+    .sub-menu-secundary-mobile > li > a > i{
+        font-size: 1.2rem;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

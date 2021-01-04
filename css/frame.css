@@ -1,0 +1,125 @@
+.container{
+    width: 100%;
+    max-width: 1280px;
+    max-height: 100%;
+    padding: 0 2%;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-row { display: flex; }
+
+.float-left { float: left;}
+.float-right { float: right;}
+.clear { clear: both}
+
+.f-column {
+    display: flex;
+    flex-direction: column;
+}
+.f-center {
+    display: flex;
+    justify-content: center;
+}
+
+.f-center-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.f-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.f-around-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.f-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-between-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.w90 { width: calc(90% - 2rem); }
+.w80 { width: calc(80% - 2rem);}
+.w70 { width: calc(70% - 2rem);}
+.w75 { width: calc(75% - 2rem);}
+.w60 { width: calc(60% - 2rem);}
+.w65 { width: calc(65% - 2rem);}
+.w50 { width: calc(50% - 2rem);}
+.w40 { width: calc(40% - 2rem);}
+.w33 { width: calc(33.3% - 2rem);}
+.w25 { width: calc(25% - 2rem);}
+.w20 { width: calc(20% - 2rem);}
+.w17 { width: calc(17% - 2rem);}
+.w12 { width: calc(12% - 2rem);}
+.w8 { width: calc(8% - 2rem);}
+
+.p {padding: 1rem;}
+.p-t {padding-top: .8rem}
+.p-r {padding-right: .8rem}
+.p-b {padding-bottom: .8rem}
+.p-l {padding-left: .8rem}
+
+.m {margin: 1rem}
+.m-t {margin-top: 1rem}
+.m-l {margin-left: 1rem}
+.m-b {margin-bottom: 1rem}
+.m-r {margin-right: 1rem}
+
+.bg-black {background-color: black;}
+.bg-green {background-color: #26b726
+}
+.bg-whitesmoke {background-color: whitesmoke;}
+.bg-lightblack { background-color: rgba(0,0,0,.8);}
+.bg-red { background-color: #ff253a; }
+.bg-lightblue {background-color: lightblue;}
+.bg-lightgray {background-color: lightgray;}
+.bg-gray {background-color: gray;}
+
+.color-white{color: white;}
+.color-lightgray {color: lightgray;}
+.color-gray {color: #545050;}
+.color-red {color: #ff253a;}
+.color-black {color: #1d1c1c;}
+.color-lightblack {color: #262323;}
+
+.bold-400 {font-weight: 400}
+.bold-normal {font-weight: normal}
+
+.text-center {text-align: center;}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+
+.vertical-middle {vertical-align: middle;}
+
+.font-1 { font-size: .9rem; }
+.font-1-1 { font-size: 1.1rem; }
+.font-1-2 { font-size: 1.2rem; }
+.font-1-5 { font-size: 1.5rem; }
+.font-2 { font-size: 2rem; }
+.font-2-5 { font-size: 2.5rem; }
+
+.link-uppercase {
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+.link-normal { text-decoration: none;}
