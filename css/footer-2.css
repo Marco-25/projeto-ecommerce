@@ -72,21 +72,37 @@
     .footer-2 {
        display: block;
     }
-
-    .footer-2__container-attendance {
-        margin-top: 1rem;
-        float: none;
-        text-align: center;
+    .footer-2__container-mobile {
         width: 100%;
     }
 
-    .footer-2__container-payments {
+    .footer-2__container-attendance {
+        float: none;
         text-align: center;
+        width: calc(100% + 0);
+        margin: 0 auto;
+    }
+    #institucional {
+        padding-left: 5rem;
+    }
+    #doubts {
+        padding-left: 5rem;
+    }
+
+    .footer-2__container-payments h5 a {
+        text-align: center;
+    }
+    .footer-2__container-payments {
+        padding-left: 5rem;
+
     }
 
     .footer-2__container-auaha {
-       padding-left: 6rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
+
 }
 
 
