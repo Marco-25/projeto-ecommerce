@@ -373,7 +373,36 @@
 }
 
 
+@media screen and (max-width: 643px){
+    .sub-menu-primary-mobile {
+        display: none;
+        padding: 1rem 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0 auto;
+        background-color: gray;
+        width: 200px;
+        height: 100%;
+    }
 
+    #input-mobile {
+        display: block!important;
+        height: 2rem;
+        width: 10rem;
+        position: relative;
+        left: 0;
+        font-size: 1rem;
+    }
+
+    .sub-menu-secundary-mobile {
+        position: absolute;
+        left: 50%;
+        width: 250px;
+        height: 140px;
+        background-color: whitesmoke;
+    }
+}
 
 
 

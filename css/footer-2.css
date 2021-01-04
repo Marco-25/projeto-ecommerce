@@ -68,6 +68,27 @@
     }
 }
 
+@media screen and (max-width: 643px) {
+    .footer-2 {
+       display: block;
+    }
+
+    .footer-2__container-attendance {
+        margin-top: 1rem;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-2__container-payments {
+        text-align: center;
+    }
+
+    .footer-2__container-auaha {
+       padding-left: 6rem;
+    }
+}
+
 
 
 

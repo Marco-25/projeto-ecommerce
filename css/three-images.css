@@ -73,6 +73,25 @@
     }
 }
 
+@media screen and (max-width: 643px) {
+    .three-images__container {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .image-single:nth-child(1) {
+        background-image: none;
+    }
+
+    .image-single:nth-child(2),
+    .image-single:nth-child(3) {
+        width: calc(100% + 120rem);
+        margin-left: 10px;
+        padding-left: 3rem;
+    }
+}
+
 
 
 
